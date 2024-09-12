@@ -26,6 +26,9 @@ runs:
     CONFLUENCE_PARENT_ID: ${{ inputs.confluenceParentId }}
     ATLASSIAN_USERNAME: ${{ inputs.atlassianUserName }}
     ATLASSIAN_API_TOKEN: ${{ inputs.atlassianApiToken }}
+	ATLASSIAN_PERSONAL_TOKEN: ${{ inputs.atlassianPersonalAccessToken }}
     FOLDER_TO_PUBLISH: ${{ inputs.folderToPublish }}
     CONFLUENCE_CONTENT_ROOT: ${{ inputs.contentRoot }}
     CONFLUENCE_CONFIG_FILE: ${{ inputs.configFile }}
+	CONFLUENCE_API_PREFIX:  ${{ inputs.confluenceApiPrefix }}
+ 	
